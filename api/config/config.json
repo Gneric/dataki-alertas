@@ -1,0 +1,29 @@
+{
+	"secret"			: "XrRaVlmFlZ04KYHvFxmYkdCO2I4ZBh5O",
+	"apiSecret"			: "pZm#f$Oqwtt)lcn0CC-zh*X1{d1eeo",
+	"EMPRESA"			: "AJI",
+	"conn_MySQL"	: {
+		"host"			: "51.222.82.147",
+		"port"			: "3306", 
+		"user"			: "root",
+		"password"		: "V1d4S0ftw4r3!",
+		"database"		: "dataki_alertas",
+		"multipleStatements": true
+	},
+	"conn_MSSQL"	: {
+		"user": "sa",
+		"password": "a,udh-ys(DP.ad87912e1w",
+		"database": "STRATEGIO_OLAP_PROTISA",
+		"server": "51.222.82.146",
+		"requestTimeout": 120000,
+		"pool": {
+			"max": 10,
+			"min": 0,
+			"idleTimeoutMillis": 30000
+		},
+		"options": {
+			"encrypt": true,
+			"trustServerCertificate": true
+		}
+	}
+}
